@@ -6,13 +6,13 @@ import random
 import requests
 import os
 
-client = commands.Bot(command_prefix="!")
+client = commands.Bot(command_prefix="s?")
 player_dict = dict()
 
 
 @client.event
 async def on_ready():
-    print("Bot ist bereit")
+    print("Bot is on")
     
 
 
@@ -55,4 +55,4 @@ async def resume(ctx):
 
 
 
-client.run(str(os.environ.get('BOT_TOKEN')))
+client.run(str(os.environ.get('NTkxNzU5NzYwNTUwOTIwMjEz.XQ1nvQ.9V3wm-XSNCWHv2Mutn56EK7-0fU')))
